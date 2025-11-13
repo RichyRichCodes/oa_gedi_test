@@ -1,0 +1,19 @@
+[general]
+pvss_path = "/opt/WinCC_OA/3.21"
+proj_path = "/opt/WinCC_OA/public-projs/GediGit"
+proj_version = "3.21"
+useNGA = 1
+useSQLite = 1
+langs = "en_US.utf8"
+authtype = "oidc"
+accessControlPlugin = "AccessControlPlugin"
+ssaChainFile = "root-cert.pem"
+ssaCertificate = "file:user-cert.pem"
+ssaPrivateKey = "file:user-key.pem"
+[ui]
+defaultFont = "Noto Sans"
+httpServer = "https://VRA-TST-0037801.etm-ag.com:8079"
+versionControl = "git"
+[webClient]
+httpsPort = 8079
+httpPort = 0
