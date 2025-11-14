@@ -18,4 +18,6 @@
 void main()
 {
   DebugN("blabla");
+  DebugN("blabla");
+
 }
