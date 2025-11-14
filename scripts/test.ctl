@@ -17,6 +17,7 @@
 */
 void main()
 {
-  DebugN("ty blaho");
-    DebugN("ty blaho");
+  DebugN("blabla");
+  DebugN("blabla");
+
 }
